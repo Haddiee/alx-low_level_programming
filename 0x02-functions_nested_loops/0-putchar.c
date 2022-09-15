@@ -13,21 +13,17 @@ char string[8] = "_putchar";
 
 	int n = 0;
 
-
-
 	while (n < 8)
 
 	{
 
-		_putchar(string[n]);
+		int_putchar(string[n]);
 
 		++n;
 
 	}
 
-
-
-	_putchar(10);
+	int_putchar(10);
 
 	return (0);
 
