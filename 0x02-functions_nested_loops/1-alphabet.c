@@ -4,9 +4,9 @@
 * print_alphabet - print alphabet
 */
 
-void print_alphabet(void)
+void print_alphabet(void);
 
-; {
+{
 
 	char a = 'a';
 
@@ -27,4 +27,4 @@ void print_alphabet(void)
 	_putchar(10);
 
 }
-; {
+
