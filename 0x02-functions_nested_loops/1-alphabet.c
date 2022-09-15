@@ -6,7 +6,7 @@
 
 void print_alphabet(void)
 
-{
+; {
 
 	char a = 'a';
 
@@ -27,3 +27,4 @@ void print_alphabet(void)
 	_putchar(10);
 
 }
+; {
