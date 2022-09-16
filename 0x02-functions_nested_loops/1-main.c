@@ -1,42 +1,94 @@
+#include <stdlib.h>
+
+#include <time.h>
+
 #include <stdio.h>
 
+
+
 /**
+* main - Entry point
+*
 * main - causes an infinite loop
-* Return: 0
+*
+* Return: return one of the 3 options
+
 */
 
 int main(void)
-;
+
+
+
 {
 
-	int i;
+
+
+	int n;
 
 
 
-	printf("Infinite loop incoming :(\n");
 
 
 
-	i = 0;
+
+	srand(time(0));
 
 
 
-	/*while (i < 10)*/
-
-	/*{*/
-
-	/*	putchar(i);*/
-
-	/*}*/
+	n = rand() - RAND_MAX / 2;
 
 
 
-	printf("Infinite loop avoided! \\o/\n");
+	if (n > 0)
+
+
+
+	{
+
+
+
+		printf("%d is positive\n", n);
+
+
+
+	}
+
+
+
+	else if (n == 0)
+
+
+
+	{
+
+
+
+		printf("%d is zero\n", n);
+
+
+
+	}
+
+
+
+	else
+
+
+
+	{
+
+
+
+		printf("%d is negative\n", n);
+
+
+
+	}
 
 
 
 	return (0);
-}
-{
-}
 
+
+
+}
